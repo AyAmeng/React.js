@@ -49,6 +49,7 @@
     "dot-loader": "^0.1.1",
     "expire-cache": "^0.2.0",
     "expose-loader": "^0.7.1",
+    "express": "^4.14.1",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.5",
     "gulp": "^3.9.1",
