@@ -39,6 +39,7 @@
     "@types/underscore": "1.7.36",
     "@types/whatwg-fetch": "0.0.33",
     "WebUploader": "github:teambition/webuploader#v0.1.24",
+    "anywhere": "^1.4.0",
     "assets-webpack-plugin": "^3.4.0",
     "autoprefixer": "^6.5.0",
     "backbone": "^1.2.3",
