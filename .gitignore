@@ -1,8 +1,16 @@
-node_modules
-npm-debug.log*
-
 .vscode/*
 !.vscode/settings.json
+.DS_Store
+.idea
+.publish
+.tmp
+.cdnUploaderCache
 
+npm-debug.log*
+node_modules
+
+www
 dist
 static
+_dist
+_package
