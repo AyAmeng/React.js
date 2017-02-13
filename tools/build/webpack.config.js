@@ -182,13 +182,13 @@ if (DEBUG) {
 
   // host, port
   config.devServer.host = '0.0.0.0'
-  config.devServer.port = 8081
+  config.devServer.port = 8000
 } else {
   /**
    * production
    */
 
-  // hash filename
+  // hash filename debugger_modle mesage
   config.output.filename = '[name].[chunkhash].js'
 
   // cdn
@@ -305,7 +305,7 @@ if (DEBUG) {
   // clean up
   require('del').sync([`dist/${target}`])
 
-  // optimization
+  // optimization youhua
   config.plugins.push(...[
     new webpack.optimize.DedupePlugin(),
     new webpack.optimize.MinChunkSizePlugin({
